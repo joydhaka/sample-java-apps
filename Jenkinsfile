@@ -11,5 +11,12 @@ pipeline {
         }
     }
     stages {
-    }
+        stage('set build name')   {
+            steps {
+                sh 'echo my name is joy' 
+            }
+        }
 }
+    
+}
+    
